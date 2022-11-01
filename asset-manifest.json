@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/justin-personal/static/css/main.e6c13ad2.css",
+    "main.js": "/justin-personal/static/js/main.d68a8846.js",
+    "static/js/787.823e80cf.chunk.js": "/justin-personal/static/js/787.823e80cf.chunk.js",
+    "index.html": "/justin-personal/index.html",
+    "main.e6c13ad2.css.map": "/justin-personal/static/css/main.e6c13ad2.css.map",
+    "main.d68a8846.js.map": "/justin-personal/static/js/main.d68a8846.js.map",
+    "787.823e80cf.chunk.js.map": "/justin-personal/static/js/787.823e80cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d68a8846.js"
+  ]
+}
