@@ -1,12 +1,21 @@
-import { Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Routes/Home";
+import Resume from "./Routes/Resume";
+import Photography from "./Routes/Photography";
+import Navigation from "./Components/Navigation";
 
 const App = () => {
   return (
-    <div>
-      <Link to="/about">About</Link>
-      <h2>Github Pages</h2>
-      <h3>Deploying React to Github</h3>
-    </div>
+    <>
+      <Router>
+        <Navigation />
+        <Routes basename="/justin-danglade">
+          <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/photography" element={<Photography />} />
+        </Routes>
+      </Router>
+    </>
   );
 };
 export default App;
